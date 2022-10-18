@@ -41,7 +41,7 @@ const BuisnessDesign = () => {
         <>
             <div className="container mt-5">
                 <div className="row p-2">
-                    <div className="col-lg-6 col-md-6 col-sm-12">
+                    <div className="col-lg-6 col-md-6 col-sm-12" style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
                         <img src={require('../../Assets/Images/PNG/buisness1.png')} width="100%" alt="" srcset="" />
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12" style={{ flexDirection: 'column',paddingLeft:20 }}>
@@ -115,7 +115,7 @@ const BuisnessDesign = () => {
                             </div>
                         </div> */}
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12 buisness2" style={{ flexDirection: 'column'}}>
+                    <div className="col-lg-6 col-md-6 col-sm-12 buisness2" style={{ flexDirection: 'column',display:"flex",justifyContent:"center",alignItems:"center"}}>
                     <img src={require('../../Assets/Images/PNG/buisness2.png')} width="100%" alt="" srcset="" />
                     </div>
                 </div>

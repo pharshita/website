@@ -42,8 +42,9 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    padding: 0px 286px;
+    padding: 30px 0px;
 }
+
 .setsvgicon{
     position: relative;
     background-color: #fff;
@@ -212,9 +213,10 @@
     .works .work_detail {
         padding: 48px 0 90px 0;
     }
-    .setsvgicon2 svg {
+    .setsvgicon svg {
         bottom: 0px;
-        width: 118px;
+        width: 127px;
+        left: 106px;
     }
     .works .setsvgicon2 {
         box-shadow: none;
@@ -226,7 +228,7 @@
         text-align: center;
     }
     .setsvgicon2 svg {
-        left: 143px;
+        left: 36px;
         top: -230px;
     }
     .leftdata .details2 {
@@ -236,10 +238,9 @@
         height: 0rem;
         box-shadow: none;
     }
-    .setsvgicon3 svg {
-        bottom: 0px;
-        width: 118px;
-        left: 151px;
+    .setsvgicon2 svg {
+        left: 36px;
+        top: -230px;
     }
     .datadetails2 {
         text-align: center;
@@ -256,4 +257,61 @@
         width: 390px;
         height: 484px;
     }
+    
+}
+
+@media (width:360px) {
+    .setsvgicon svg {
+        left: 88px;
+    }
+}
+@media (width:820px) {
+    .setsvgicon svg {
+        bottom: -6px;
+    }
+
+}
+@media (width:768px) {
+    .setsvgicon svg {
+        bottom: -6px;
+    }
+}
+@media (width:912px) {
+    .setsvgicon svg {
+        bottom: -4px;
+    }
+    .setsvgicon{
+        width: 19%;
+    }
+}
+@media (width:540px) {
+    .setsvgicon svg {
+        bottom: 0px;
+        width: 127px;
+        left: 175px;
+    }
+    .setsvgicon2 svg {
+        top: -200px;
+    }
+}
+@media (width:280px) {
+    .setsvgicon2 svg {
+        left: 36px;
+        top: -250px;
+    }
+    .setsvgicon svg {
+        bottom: 0px;
+        width: 127px;
+        left: 49px;
+    }
+}
+@media (width:1024px) {
+    .work_detail .leftdata {
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .border-rht::before {
+        border: none;
+     }
 }

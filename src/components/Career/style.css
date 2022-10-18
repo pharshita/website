@@ -243,5 +243,16 @@
     .ResumeMain .share{
         font-size: 4.5vw;
     }
-  
+   
+}
+@media (max-width:912px) and (min-width:768px) {
+    .careerCards {
+        height:322px;
+    }
+    .careerCard {
+     height: 285px;
+    }
+    .heading {
+        height: 175px;
+    }
 }

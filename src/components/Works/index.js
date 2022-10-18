@@ -14,11 +14,17 @@ function Works() {
                 <div className='container work_containt'>
                     <h2>How it Works</h2>
                     <div className='seticon'>----------&nbsp; &nbsp;<img src={iconimg} width={40} height={40}></img>&nbsp; &nbsp;----------</div>
-                    <div className='pera'>
-                        <p >In our process we always focus on quality, testing and want to deliver good software on time.
+                    <div className='row'>
+            <div className='col-sm-12 col-md-10 col-lg-6'>
+            <div className='pera'>
+          <p >In our process we always focus on quality, testing and want to deliver good software on time.
 
 In order to support these requirements we use many different tools and have a special workflow for development tasks.</p>
-                    </div>
+          </div>
+            </div>
+          </div>
+                    {/* <div className='pera'>
+                    </div> */}
                 </div>
                 <div className='row'>
                     <div className='col-lg-5 col-lg-5 col-sm-12 leftdata'>
