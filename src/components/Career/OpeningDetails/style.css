@@ -1,0 +1,90 @@
+.jobDescription  h4{
+    color: rgb(50, 48, 45);
+    margin-bottom: 30px;
+}
+.jobResponsiblity h4{
+    color: rgb(50, 48, 45);
+    margin-bottom: 30px;
+}
+
+.perksandbenefits h4{
+    color: rgb(50, 48, 45);
+    margin-bottom: 30px;
+}
+
+.job{
+    padding: 3rem !important;
+}
+.jobDescription  p{
+    color: rgb(131, 129, 126);
+    margin-bottom: 30px;
+}
+.jobResponsiblity p{
+    color: rgb(131, 129, 126);
+    margin-bottom: 30px;
+}
+
+.perksandbenefits p{
+    color: rgb(131, 129, 126);
+    margin-bottom: 30px;
+}
+
+.jobHeading h3{
+    color: rgb(53, 50, 50);
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.103);
+    
+}
+
+.exper h5{
+    color: rgb(255, 255, 255);
+}
+.exper p{
+    color: rgb(214, 214, 213);
+
+}
+.skills h5{
+    color: rgb(255, 255, 255);
+
+}
+.skills p{
+    color: rgb(222, 221, 220);
+
+
+}
+.JobCard{
+    /* box-shadow: 0px 0px 16px 1px #8648e9; */
+    border-radius: 10px;
+    height: min-content;
+    background: linear-gradient(45deg, #553bfc, #7310d7bf);
+    position: relative;
+}
+.jobHeading{
+    position: absolute;
+    top: 0;
+    background-color: #ffc107;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.exper{
+    margin-top: 60px;
+}
+
+.expert h5{
+    color: rgb(255, 255, 255);
+}
+.expert p{
+    color: rgb(214, 214, 213);
+
+}
+@media only screen and (max-width:600px){
+    .job{
+        padding: 1rem !important;
+    }
+}

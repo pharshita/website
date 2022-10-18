@@ -1,0 +1,90 @@
+.box {
+    background-color: transparent;
+    background-image: linear-gradient(60deg, #2a217b 0%, #4e3cb2 100%);
+}
+
+.box .box_containt {
+    padding: 80px 70px 80px 70px;
+}
+.box_containt h4{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 3.125rem;
+    text-align: left;
+}
+.box .setbutton{
+ align-items: center;
+}
+.box .setbutton .pera{
+    padding: 10px 27px;
+    border: 0.125rem solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: #1d2124;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    width: 50%;
+    height: 30%;
+   }
+   .box .setbutton .pera:hover{
+    color: #fff;
+    background-color: transparent;
+   }
+   .border-rht::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 30px;
+    height: 60px;
+    border-right: 3px solid #b3daf4;
+}
+
+.pentagon {
+    margin: 0 auto 1.5rem;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border-rht h5{
+    font-family: "Josefin Sans", sans-serif;
+    color: #f6f6f6;
+    text-transform: uppercase;
+    line-height: 0.561;
+    text-shadow: 1px 5px 2px rgb(17 21 70 / 50%);
+    text-align: center;
+}
+.pentagon:before {
+    content: "";
+    position: absolute;
+    background-image: url("../../Assets/PNG/poly.png");
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+   @media only screen and (max-width: 600px) {
+    .box_containt h4 {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .box .box_containt {
+        padding: 30px 0 30px 0;
+    }
+    .box .setbutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0px;
+    }
+   }

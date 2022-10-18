@@ -1,0 +1,96 @@
+.form{
+    align-content: center;
+    padding: 90px 0px;
+}
+.form_containt h2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #1d2124;
+    line-height: 3.125rem;
+    position: relative;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.form_containt p{
+    color: #646464;
+    margin: 0px 60px 20px 0px;
+    font-size: 16px;
+    font-family: "Roboto",sans-serif;
+    margin-bottom: 70px;
+
+}
+
+.form_containt input{
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    outline: none;
+    height: 50px;
+    margin-bottom: 20px;
+    color: #242424;
+    padding: 0 10px;
+
+}
+.form_containt textarea{
+    margin-bottom: 20px;
+    color: #242424;
+
+}
+.form_containt select{
+        width: 100%;
+        height: 50px;
+        background: #fff;
+        border-radius: 4px;
+        border: 1px solid #ced4da;
+        padding: 0 10px;
+        color: #b8b8b8;
+        box-shadow: none;
+        margin-bottom: 20px;
+
+}
+.button-gradient{
+    font-weight: 500;
+    padding: 12px 28px;
+    border-radius: 4px;
+    background-color: #5a49f8;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    position: relative;
+}
+.fillform{
+    width: 93%;
+    margin-left: -80px;
+}
+.formimg img{
+    margin-top: 40px;
+}
+.form_containt{
+    align-items: baseline !important;
+}
+@media only screen and (max-width: 600px) {
+    .form_containt h2{
+        font-size: 1.70rem;
+        font-weight: 700;
+        line-height: 3.125rem;
+    }
+    .form_containt p{
+        text-align: center;
+        margin: 0px 20px 20px 20px;
+    }
+    .fillform{
+        width: 100%;
+    margin-left: 0px;
+
+    }
+    .form{
+        padding: 30px 0px;
+        align-content: center;
+    }
+    .form_containt{
+        align-items: center !important;
+    }
+    .formimg img{
+          display: none;
+    }
+}

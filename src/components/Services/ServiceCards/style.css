@@ -1,0 +1,64 @@
+.cards .card_containt{
+    padding:10px 30px;
+    background-color: white;
+    margin-left: 30px;
+}
+.card_containt p{
+    font-size:16px ;
+    color: #646464;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+
+}
+.card_containt:hover{
+  box-shadow: 0 2px 25px 0 rgba(0, 0, 0, 0.188);    
+
+}
+.cards{
+    text-align: center;
+   
+}
+.card_containt h2{
+    margin-bottom: 15px;
+    color: #1d2124;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.cards{
+    width: auto;
+}
+.card_containt{
+    height: 350px;
+    width: 100%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.121);
+    border-radius: 2%;
+    transition: all ease-in-out 3ms;
+}
+.carddetails{
+    height: 35vh;
+    align-items: center;
+    align-content: center;
+    padding-top:50px ;
+}
+@media only screen and (max-width: 600px) {
+    .cards .card_containt{
+        padding:10px;
+        margin-left: 0px;
+    }
+    .carddetails p {
+        line-height: 22px;
+    }
+    .carddetails{
+        height: 33vh;
+        padding-top: 30px;
+    }
+    .card_containt{
+        height: 45vh;
+        width: 100%;
+    }
+    .cards{
+        width: 90%;
+    }
+}

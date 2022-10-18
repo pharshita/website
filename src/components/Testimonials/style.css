@@ -1,0 +1,119 @@
+.heading-icon {
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1.25rem;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    align-items: flex-start;
+}
+.react-multi-carousel-track{
+    margin: 0 auto;
+}
+
+.react-multi-carousel-list {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.tesimonials_card{
+    position: relative;
+    height: 550px;
+    margin-right: 60px;
+}
+.quot{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    color: white;
+
+}
+.para{
+    position: absolute;
+    top: 104px;
+    left: 0px;
+    font-size: 14px;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+.sub-text{
+    margin-bottom: 30px;
+}
+.sub_heading_section{
+    font-size: 16px;
+    color: #646464;
+    font-family: "Roboto", sans-serif;
+    line-height: 30px;
+}
+
+.bottom_main{
+    position: absolute;
+    bottom: 90px;
+    display: flex;
+    left: 60px
+}
+.testimonial .line-at-bot::before {
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    margin: 0 auto;
+    right: 0;
+}
+.testimonial .line-at-bot {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+.testimonial .line-at-bot::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    left: 0;
+    bottom: -4px;
+    background-color: #df1aab;
+    margin: 0 auto;
+    right: 0;
+    border-radius: 50%;
+    z-index: 1;
+    animation: myfirst1 10s linear 1s infinite alternate;
+}
+@keyframes myfirst1 {
+    0%   {left:0px; right:200px;}
+    25%  {left:200px; right:0px;}
+    50%  { left:0px; right:200px;}
+    75%  { left:200px; right:0px;}
+    100% {left:0px; right:200px;}
+  }
+@media only screen and (max-width: 600px) 
+{
+    .tesimonials_card{
+        height: 450px;
+        margin-right: 0% !important;
+    }
+.quot{
+    top: 19px;
+    left: 105px
+}
+.para {
+    top: 81px;
+    padding: 30px;
+}
+.bottom_main{
+    left: 45px;
+    bottom: 20px;
+}
+.sub-text{
+    margin-bottom: 20px;
+}
+}

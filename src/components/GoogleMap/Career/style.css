@@ -1,0 +1,247 @@
+.careerCards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
+.careerCard{
+    box-shadow: 0px 0px 20px rgba(97, 94, 94, 0.351);
+    padding: 40px !important;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+
+}
+.careerCard h4{
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+.careerCard p{
+    margin-top: 20px;
+    font-size: 1.1vw;
+    font-weight: 400;
+    color: rgb(116, 116, 116);
+    text-align: left;
+}
+.heading h1{
+    font-size: 4vw;
+    text-align: center;
+    width: 90%;
+}
+.heading{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+.midSec{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+}
+.midSec h4{
+        color: rgb(252, 176, 0);
+        font-weight: 700;
+}
+.midSec h2{
+    color: rgb(81, 80, 83);
+    font-weight: 700;
+}
+.hr{
+    margin: 0 auto;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+}
+
+.careerMid h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+}
+.careerMid p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(91, 88, 88);
+   
+}
+
+.line-at-bot::before {
+    position: absolute;
+    content: "";
+    width: 84px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    margin: 0 auto;
+    right: 0;
+}
+.line-at-bot {
+    position: relative;
+    width: 100%;
+    top: 60px;
+}
+.line-at-bot::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    left: 0;
+    bottom: -4px;
+    background-color: #dfab1a;
+    margin: 0 auto;
+    right: 0;
+    border-radius: 50%;
+    z-index: 1;
+    animation: myfirst 15s linear  infinite alternate;
+}
+.btn-outline-dark:hover{
+    cursor: pointer;
+}
+@keyframes myfirst {
+    0%   {left:0px; right:100%;}
+    25%  {left:100%; right:0px;}
+    50%  { left:0px; right:100%;}
+    75%  { left:100%; right:0px;}
+    100% {left:0px; right:100%;}
+  }
+
+  .searchComponent input[type=text] {
+    padding: 4px;
+    margin-top: 8px;
+    font-size: 17px;
+    width: 35%;
+}
+.ApplyBtn{
+    display: flex;
+    justify-content: end;
+    margin-top: 0px;
+}
+.applybtn{
+    font-size: 1vw !important;
+}
+
+.openingBody{
+    display: flex;
+    justify-content: center;
+}
+.OpeningData h4{
+        font-size: 1.8vw;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 10px;
+}
+.OpeningData p{
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(60, 62, 60);
+}
+.Exp{
+    width: 84%;
+}
+
+.ResumeRow{
+    background-color: #ffaf3e !important;
+    background-origin: content-box;
+}
+
+
+.hrOpenings{
+
+    height: 2px;
+    background-color: rgb(255, 150, 29);
+    width: 100%;
+    margin-bottom: 20px;
+    animation: hrAnime 6s infinite;
+}
+
+
+@keyframes hrAnime{
+    0% {width:0%;}
+    100%{width: 100%;}
+}
+.ResumeMain .share {
+    font-size: 1.7vw;
+    color: white;
+}
+.ResumeMain .team{
+    color: white;
+    font-size: 1.2vh;
+}
+.ResumeMain .team1{
+    color: white;
+    font-size: 1.5vh;
+}
+
+@media only screen and (max-width:600px) {
+    .heading h1{
+        font-size: 7vw;
+    }
+    .careerCard .img{
+        text-align: center;
+    }
+    .careerCard h4 {
+        font-size: 5.5vw;
+        font-weight: 600;
+        text-align: center;
+    }
+    .careerCards {
+        height: auto;
+        margin-bottom: 26px;
+        justify-content: center;
+    }
+    
+    .careerCard p {
+        font-size: 3.1vw;
+        text-align: center;
+    }
+    .careerCards .careerCard{
+        width: 80%;
+        height: 375px;
+        margin-bottom: 10px;
+    }
+    .careerMid h3 {
+        font-size: 6vw;
+    }
+    .careerMid p {
+        font-size: 12px;
+    }
+    .search-container{
+        display: flex;
+        justify-content: center;
+    }
+    .searchComponent input[type=text] {
+        padding: 7px;
+        margin-top: 0px;
+        width: 50%;
+    }
+    .OpeningData h4 {
+        font-size: 4.8vw;
+    }
+    .OpeningData p {
+        font-size: 12px;
+    }
+    .ApplyBtn {
+        display: contents;
+    }
+    .Exp {
+        width: 100%;
+        font-weight: 500;
+    }
+    .applybtn{
+        width: 100%;
+        font-size: 4vw !important;
+    }
+   
+    .openingBody {
+        display: block;
+        justify-content: center;
+    }
+    .ResumeMain h1{
+        margin-top: 50px;
+    }
+    .ResumeMain .share{
+        font-size: 4.5vw;
+    }
+  
+}

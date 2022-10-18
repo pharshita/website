@@ -1,0 +1,56 @@
+.indicator-wrap {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 5.25rem;
+    margin-top: 3.5rem;
+    margin-bottom: 2.225rem;
+}
+.indicator-container {
+    display: flex;
+    justify-content: center;
+}
+.indicator-wrap .indicator-img-right {
+    position: absolute;
+    z-index: 1;
+    right: -0.9375rem;
+    bottom: 0.875rem;
+}
+.indicator-img-left {
+    position: absolute;
+    z-index: 1;
+    left: -1.25rem;
+    bottom: 0.875rem;
+}
+.data1{
+    padding: 20px;
+}
+.buisness2{
+    padding-left: 20px;
+}
+.heading1 h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+    .indicator-container {
+        display: none;
+    }
+    .data1{
+        padding-top: 60px;
+    }
+    .buisness2 img{
+        padding-left: 0px;
+        margin-top: 50px;
+        display: none;
+    }
+    .heading1 h1 {
+        font-weight: 700;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 22px !important;
+    }
+    .subHeading{
+     padding-right: 16px !important;
+    }
+}

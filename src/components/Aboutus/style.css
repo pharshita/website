@@ -1,0 +1,78 @@
+ .aboutimg{
+    text-align: center;
+}
+.aboutus{
+    align-content: center;
+    padding: 100px 0px;
+}
+.aboutcontaint h2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #1d2124;
+    line-height: 3.125rem;
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: 30px;
+  
+}
+.aboutcontaint p{
+    color: #646464;
+    margin: 0px 40px 20px;
+    font-size: 16px;
+    font-family: "Roboto",sans-serif;
+  
+
+}
+  
+.aboutcontaint .icon{
+    color: #5a49f8;
+    font-size: 20px;
+}
+
+.setimg{
+  background-image: url("../../Assets/PNG/element17\ .png");
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  background-position: right;
+
+}
+.aboutcontaint .readmore a{
+    background-image: linear-gradient(60deg,#5a49f8 0%,#7a64f2 100%);
+    z-index: 2;
+    padding: 12px 28px;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutus{
+        height: auto;
+        margin-top: 20px !important;
+        padding-bottom: 40px;
+    }
+    .aboutcontaint h2{
+        font-size: 8vw;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        line-height: 40px;
+        text-align: center;
+        margin-left: 0px !important;
+        
+    }
+    .aboutcontaint p{
+        margin: 0px !important;
+        margin-bottom: 20px !important;
+    } 
+    .setimg{
+        background-image: none;
+    }
+    .setimg p{
+        font-size: 3.4vw;
+    }
+    .readmore a{
+        margin-left: 0px !important;
+    }
+    .aboutImage{
+        width: 60% !important;
+    }
+    }

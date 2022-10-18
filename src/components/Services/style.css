@@ -1,0 +1,51 @@
+.heading{
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.heading h1{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+/* .services{
+    background-image: url("../../Assets/PNG/banner3.jpg");
+} */
+.cardComponent{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.121);
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.content{
+    color: rgb(108, 108, 108);
+    font-weight: 400 !important;
+}
+
+.carddata{
+    margin-top: -40px;
+}
+.addsevricesec .seticon{
+    display: none;
+}
+.addsevricesec .itservice .pera {
+    display: none;
+}
+
+.addsevricesec{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .entry-banner{
+        height: auto !important;
+    }
+    .cardrow{
+        width: 90%;
+    }
+    .carddata{
+        display: flex;
+        justify-content: center;
+    }
+}
+
